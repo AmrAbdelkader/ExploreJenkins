@@ -10,6 +10,7 @@ namespace ExploreJenkins.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Jenkins Change Version 0.0";
             return View();
         }
 
